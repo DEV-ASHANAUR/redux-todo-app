@@ -21,7 +21,11 @@ const reducer = (state = initialState, action)=>{
                         ...state,
                         colors : state.colors.filter((exColor)=>exColor !== color),
                     };
+                default:
+                    return state;
             }
+        default:
+            return state;
 
     }
 }
