@@ -1,12 +1,12 @@
 export const initialState = [
     {
         id: 1,
-        text: "Learn React JS",
+        text: "beaf meat",
         completed: true,
     },
     {
         id: 2,
-        text: "Learn Redux",
+        text: "Cat Fish",
         completed: false,
         color: "red",
     },
